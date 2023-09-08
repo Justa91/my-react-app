@@ -1,30 +1,61 @@
 .Weather {
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
-  border: 1px solid black;
+  border: 5px solid whitesmoke;
+  border-radius: 10px;
   padding: 20px;
+  color: rgb(255, 255, 255);
+  background: rgb(191, 1, 115);
+  font-family: "Pacifico", cursive;
+  box-shadow: -1px 1px 18px -3px rgb(191, 1, 115);
 }
 
 .Weather li {
   list-style: none;
+  font-size: 15px;
 }
 
 .Weather ul {
   padding: 0;
 }
+
+.Weather span {
+  color: rgb(191, 1, 115);
+}
+
+.Weather .weather-info p {
+  color: rgb(191, 1, 115);
+  font-size: 22px;
+}
+
+.Weather .weather-info h2 {
+  font-size: 50px;
+  margin: 0;
+}
+
 .Weather .search-input {
   width: 100%;
   height: 40px;
-  border: 1px solid rgb(90, 86, 86);
+  border: 1px solid whitesmoke;
   border-radius: 6px;
 }
 
 .Weather .submit-button {
   width: 100%;
   height: 40px;
+  background: rgb(191, 1, 115);
+  border-color: whitesmoke;
+}
+
+.Weather .submit-button:hover {
+  background: rgb(223, 128, 185);
+  border: 1px solid whitesmoke;
 }
 
 .Weather .weather-info {
-  border: 1px solid black;
-  padding: 8px;
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px;
+  background: rgb(255, 255, 255, 0.5);
 }

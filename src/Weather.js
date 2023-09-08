@@ -10,7 +10,7 @@ export default function Weather() {
             <div className="col-7">
               <input
                 type="search"
-                placeholder="Type a city"
+                placeholder="Type a city..."
                 className="p-2 search-input"
               ></input>
             </div>
@@ -24,14 +24,19 @@ export default function Weather() {
             </div>
           </div>
         </form>
+        <hr></hr>
         <div className="weather-info mt-4">
           <div className="row">
             <div className="col-6">
-              <h1>Warsaw</h1>
+              <h2>Warsaw</h2>
               <p>Friday 13:51</p>
               <ul>
-                <li>Humidity: 50%</li>
-                <li>Wind: 1km/h</li>
+                <li>
+                  <span>Humidity:</span> 50%
+                </li>
+                <li>
+                  <span>Wind:</span> 1km/h
+                </li>
               </ul>
             </div>
             <div className="col-6 d-flex justify-content-end">
