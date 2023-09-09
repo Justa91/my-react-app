@@ -12,7 +12,7 @@
 
 .Weather li {
   list-style: none;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .Weather ul {
@@ -25,11 +25,12 @@
 
 .Weather .weather-info p {
   color: rgb(191, 1, 115);
-  font-size: 22px;
+  font-size: 16px;
+  margin-bottom: 40px;
 }
 
 .Weather .weather-info h2 {
-  font-size: 50px;
+  font-size: 77px;
   margin: 0;
 }
 
@@ -58,4 +59,8 @@
   padding: 15px;
   margin: 10px;
   background: rgb(255, 255, 255, 0.5);
+}
+
+.weather-info .temperature-info {
+  font-size: 25px;
 }
