@@ -1,5 +1,5 @@
 .Weather {
-  max-width: 700px;
+  max-width: 750px;
   margin: auto;
   border: 5px solid whitesmoke;
   border-radius: 10px;
@@ -19,7 +19,7 @@
   padding: 0;
 }
 
-.Weather span {
+.Weather .additional-info {
   color: rgb(191, 1, 115);
 }
 
@@ -56,11 +56,19 @@
 .Weather .weather-info {
   border: 1px solid whitesmoke;
   border-radius: 6px;
-  padding: 15px;
+  padding: 15px 25px;
   margin: 10px;
   background: rgb(255, 255, 255, 0.5);
 }
 
-.weather-info .temperature-info {
-  font-size: 25px;
+.Weather .weather-info .temperature-info {
+  font-size: 60px;
+  color: whitesmoke;
+}
+
+.Weather .description-info {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  color: rgb(191, 1, 115);
 }

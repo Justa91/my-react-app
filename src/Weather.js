@@ -50,22 +50,26 @@ export default function Weather(props) {
                 <p>{weatherData.date}</p>
                 <ul>
                   <li>
-                    <span>Humidity:</span> {weatherData.humidity}%
+                    <span className="additional-info">Humidity:</span>{" "}
+                    {weatherData.humidity}%
                   </li>
                   <li>
-                    <span>Wind: </span>
+                    <span className="additional-info">Wind: </span>
                     {weatherData.wind}km/h
                   </li>
                 </ul>
               </div>
-              <div className="col-6">
-                <span>
+              <div className="col-6 align-self-center">
+                <div className="d-flex align-self-stretch justify-content-center ">
                   <img src={weatherData.icon} alt={weatherData.description} />
+                  <span className="temperature-info">
+                    {weatherData.temperature}℃
+                  </span>
+                </div>
+
+                <span className="description-info">
+                  {weatherData.description}
                 </span>
-                <span className="temperature-info">
-                  {weatherData.temperature}℃
-                </span>
-                <span>{weatherData.description}</span>
               </div>
             </div>
           </div>
