@@ -25,7 +25,7 @@
 
 .Weather .weather-info p {
   color: rgb(191, 1, 115);
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 40px;
 }
 
@@ -61,7 +61,7 @@
   background: rgb(255, 255, 255, 0.5);
 }
 
-.Weather .weather-info .temperature-info {
+.Weather .temperature-info {
   font-size: 60px;
   color: whitesmoke;
 }

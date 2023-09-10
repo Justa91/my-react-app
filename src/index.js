@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <Weather defaultCity="Tokyo" />
+    <Weather defaultCity="Warsaw" />
     <Footer />
   </React.StrictMode>
 );

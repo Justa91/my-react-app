@@ -4,3 +4,10 @@
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+.App h1 {
+  font-size: 45px;
+  color: rgb(240, 220, 228);
+  text-shadow: 5px 0 rgb(191, 1, 115), 0 5px rgb(191, 1, 115),
+    8px 0 rgb(191, 1, 115), 0 8px rgb(191, 1, 115);
+}
