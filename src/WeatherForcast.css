@@ -9,4 +9,5 @@
 
 .WeatherForcast .forcast-temp-min {
   opacity: 0.6;
+  margin-left: 3px;
 }
