@@ -77,3 +77,65 @@
   color: rgb(191, 1, 115);
   margin-top: 15px;
 }
+
+@media (max-width: 767px) {
+  .Weather .weather-info h2 {
+    font-size: 50px;
+  }
+  .Weather .weather-information canvas {
+    width: 76px;
+  }
+  .Weather .temperature-info {
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 493px) {
+  .Weather li {
+    font-size: 18px;
+  }
+  .Weather .weather-info p {
+    font-size: 12px;
+  }
+  .Weather .weather-information canvas {
+    width: 61px;
+  }
+  .Weather .temperature-info {
+    font-size: 34px;
+  }
+  .Weather .weather-info h2 {
+    font-size: 40px;
+  }
+  .Weather .description-info {
+    margin-top: 0;
+  }
+}
+@media (max-width: 420px) {
+  .Weather .weather-information {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .Weather .weather-information canvas {
+    width: 48px;
+  }
+  .Weather .temperature-info {
+    font-size: 30px;
+  }
+  .Weather .description-info {
+    font-size: 21px;
+    margin-top: 5px;
+  }
+  .Weather .weather-info {
+    padding: 7px 19px;
+  }
+  .Weather .weather-info p {
+    margin-bottom: 19px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 388px) {
+  .Weather li {
+    font-size: 15px;
+  }
+}

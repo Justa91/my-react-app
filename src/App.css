@@ -11,3 +11,10 @@
   text-shadow: 5px 0 rgb(191, 1, 115), 0 5px rgb(191, 1, 115),
     8px 0 rgb(191, 1, 115), 0 8px rgb(191, 1, 115);
 }
+@media (max-width: 402px) {
+  .App h1 {
+    font-size: 35px;
+    text-shadow: 5px 0 rgb(191, 1, 115), 0 6px rgb(191, 1, 115),
+      2px 0 rgb(191, 1, 115), 0 4px rgb(191, 1, 115);
+  }
+}
