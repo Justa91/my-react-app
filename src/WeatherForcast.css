@@ -11,3 +11,18 @@
   opacity: 0.6;
   margin-left: 3px;
 }
+@media (max-width: 471px) {
+  .WeatherForcast {
+    font-size: 15px;
+    padding: 7px;
+  }
+}
+@media (max-width: 413px) {
+  .WeatherForcast {
+    font-size: 12px;
+    padding: 3px;
+  }
+  .Weather .forecast-day {
+    padding: 0;
+  }
+}

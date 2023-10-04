@@ -139,3 +139,8 @@
     font-size: 15px;
   }
 }
+@media (max-width: 471px) {
+  .Weather {
+    padding: 9px;
+  }
+}
