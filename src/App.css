@@ -18,3 +18,9 @@
       2px 0 rgb(191, 1, 115), 0 4px rgb(191, 1, 115);
   }
 }
+
+@media (max-width: 420px) {
+  .container footer {
+    font-size: 11px;
+  }
+}
